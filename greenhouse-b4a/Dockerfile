@@ -1,14 +1,14 @@
-FROM alpine
+FROM node:latest
 
-RUN apk update
-RUN apk add nodejs
-RUN apk add npm
+RUN npm install -g create-react-app express
 
 RUN mkdir /root/app
 WORKDIR /root/app
-COPY ./ /root/app
+
+# COPY source destination
 
 RUN npm install
-EXPOSE 3333
 
-CMD npm start
+EXPOSE 3000
+
+CMD npm install
