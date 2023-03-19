@@ -1,14 +1,13 @@
 FROM node:latest
 
-RUN npm install -g create-react-app express
-
-RUN mkdir /root/app
 WORKDIR /root/app
 
-COPY ./ /root/app
+COPY package*.json ./
 
 RUN npm install
 
+COPY . .
+
 EXPOSE 3000
 
-CMD npm install
+CMD ["npm", "start"]
