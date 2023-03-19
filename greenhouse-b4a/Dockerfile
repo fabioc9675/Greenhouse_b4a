@@ -1,10 +1,15 @@
-FROM ubuntu:latest
+FROM alpine
 
-RUN apt-get update
-RUN apt-get -y install nginx
+RUN apk update
+RUN apk add nodejs
+RUN apk add npm
 
-COPY index.html /var/www/html/index.html
+RUN mkdir /root/app
+WORKDIR /root/app
 
-EXPOSE 80
+COPY * /root/app
 
-CMD ["nginx", "-g", "daemon off;"]
+RUN npm install
+EXPOSE 3333
+
+CMD npm start
