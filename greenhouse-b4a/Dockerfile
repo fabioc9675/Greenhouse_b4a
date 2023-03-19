@@ -5,7 +5,7 @@ RUN npm install -g create-react-app express
 RUN mkdir /root/app
 WORKDIR /root/app
 
-# COPY source destination
+COPY ./ /root/app
 
 RUN npm install
 
