@@ -24,6 +24,11 @@ export default function App() {
               path="/jfk"
               element={<MainFrame dataConfig={dataConfig.Profile_JFK} />}
             />
+            <Route
+              exact
+              path="/faa"
+              element={<MainFrame dataConfig={dataConfig.Profile_FAA} />}
+            />
           </Routes>
         </Router>
       </div>

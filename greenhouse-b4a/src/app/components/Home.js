@@ -34,6 +34,15 @@ export default function Home() {
           </div>
           <div className="SimButton">
             <InstButton
+              buttonLabel="FAA"
+              pathUrl="/FAA"
+              imgDir="resources/Icons/IconFAA.png"
+              title="Huerta Fundación"
+              textInfo="Proyecto Huerta 4.0 desarrollado por la Universidad de Antioquia"
+            />
+          </div>
+          <div className="SimButton">
+            <InstButton
               buttonLabel="UdeA"
               pathUrl="/udea"
               imgDir="resources/Icons/IconUdeA.jpg"

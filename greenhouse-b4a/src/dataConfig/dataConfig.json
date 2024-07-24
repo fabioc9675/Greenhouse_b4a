@@ -11,12 +11,48 @@
     "background": "resources/JFK/Background.png",
     "mainCard": "resources/JFK/MainFrame.jpg",
     "photoBook": [
-      "resources/JFK/Foto_01.png",
+      "resources/JFK/Foto_01.jpeg",
       "resources/JFK/Foto_02.jpg",
-      "resources/JFK/Foto_03.jpg",
-      "resources/JFK/Foto_04.jpg",
-      "resources/JFK/Foto_05.jpg",
-      "resources/JFK/Foto_06.jpg"
+      "resources/JFK/Foto_03.jpeg",
+      "resources/JFK/Foto_04.jpeg",
+      "resources/JFK/Foto_05.jpeg",
+      "resources/JFK/Foto_06.jpeg"
+    ],
+    "photoTitle": [
+      "Nuestra huerta Inteligente",
+      "Nuestros científicos de datos",
+      "Esta es nuestra motivación",
+      "La huerta 4.0",
+      "Grupo Green Garden",
+      "Uso consciente de la energía"
+    ],
+    "photoText": [
+      "Acercamos las capacidades de la industria 4.0 a los niños.",
+      "Fortalecemos en los niños su capacidad de investigación e innovación.",
+      "Fomentar el desarrollo tecnológico del país.",
+      "Autosostenibilidad alimentaria en la escuela y en el hogar.",
+      "Comunidad científica de niños con tecnologías 4.0.",
+      "Desinfección del suelo de la huerta con la radiación solar."
+    ]
+  },
+  "Profile_FAA": {
+    "institution": "FAA",
+    "institutionName": "Fundación Amigos de la Alegría",
+    "title": "Huerta 4.0, El Internet de la Huerta",
+    "city": "Caldas",
+    "partner": "Universidad de Antioquia",
+    "instLogo": "resources/logos/LogoFAA.png",
+    "instURL": "https://www.udea.edu.co",
+    "footNote": "Proyecto desarrollado por los docentes Yaneth Vides y Hernando Jaramillo de la institución educativa La Paz y apoyado por el Instituto de Física de la Universidad de Antioquia",
+    "background": "resources/FAA/Background.png",
+    "mainCard": "resources/FAA/MainFrame.jpg",
+    "photoBook": [
+      "resources/FAA/Foto_01.jpeg",
+      "resources/FAA/Foto_02.jpeg",
+      "resources/FAA/Foto_03.jpeg",
+      "resources/FAA/Foto_04.jpeg",
+      "resources/FAA/Foto_05.jpeg",
+      "resources/FAA/Foto_06.jpeg"
     ],
     "photoTitle": [
       "Nuestra huerta Inteligente",
