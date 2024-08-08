@@ -29,7 +29,7 @@ export default function Home() {
               pathUrl="/jfk"
               imgDir="resources/Icons/IconJFK.jpg"
               title="Huerta JFK"
-              textInfo="Proyecto Huerta 4.0 desarrollado por la escuela la Paz de Envigado"
+              textInfo="Proyecto Huerta 4.0 desarrollado por la escuela John F Kennedy de la I. E. la Paz"
             />
           </div>
           <div className="SimButton">

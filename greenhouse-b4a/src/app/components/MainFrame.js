@@ -90,14 +90,25 @@ class MainFrame extends Component {
 
   // Update visit count to the web page
   updateVisitCount() {
-    fetch(
-      "https://api.countapi.xyz/update/jfk-school/greenhouse?amount=1"
-    ).then((res) =>
+    // console.log("Consultando...")
+    // fetch(
+    //   "https://emojihub.yurace.pro/api/random"
+    // ).then((res) =>
+    //   res.json().then((res) => {
+    //     this.setState({ visitCount: res.value });
+    //     console.log(res);
+    //   })
+    // ).catch((error) => {
+    //     console.log(error);
+    // });
+
+    fetch(`/api/greenhouse/counter`)
+    .then((res) => 
       res.json().then((res) => {
-        this.setState({ visitCount: res.value });
-        console.log(this.state.visitCount);
-      })
-    );
+      //console.log(JSON.parse(res).pageviews)
+      this.setState({ visitCount: JSON.parse(res).pageviews });
+      //console.log(this.state.visitCount);
+    }));
   }
 
   // function to make a query to DataBase
