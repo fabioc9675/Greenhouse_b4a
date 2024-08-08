@@ -3,6 +3,23 @@ const router = express.Router();
 
 const Greenhouse = require("../models/greenhouse");
 
+const fs = require("fs");
+
+// Update counter of page
+router.get("/counter", async (req, res) => {
+  // load jsonfile with counter information
+  const json = fs.readFileSync('src/routes/count.json', 'utf-8');
+  const obj = JSON.parse(json);
+
+  // increment the counter
+  obj.pageviews = obj.pageviews + 1;
+  const newJson = JSON.stringify(obj);
+
+  //write the new json file
+  fs.writeFileSync('src/routes/count.json', newJson);
+  res.json(newJson);
+});
+
 // reading data from database
 router.get("/", async (req, res) => {
   // make a request for the database
