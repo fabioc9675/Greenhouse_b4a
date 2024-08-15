@@ -18,7 +18,7 @@ export default function InstButton(props) {
 
   return (
     <Row>
-      <Col m={6} s={12}>
+      <Col m={12} s={12}>
         <Card
           className="teal z-depth-3"
           actions={[
