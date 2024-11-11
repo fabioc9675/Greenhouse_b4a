@@ -36,6 +36,15 @@ export default function Home() {
           </div>
           <div className="SimButton">
             <InstButton
+              buttonLabel="BMP"
+              pathUrl="/BMP"
+              imgDir="resources/Icons/IconBMP.jpg"
+              title="Colegio Julio Cesar Turbay"
+              textInfo="Proyecto Huerta 4.0 apoyado por LIF Community Grant"
+            />
+          </div>
+          <div className="SimButton">
+            <InstButton
               buttonLabel="FAA"
               pathUrl="/FAA"
               imgDir="resources/Icons/IconFAA.png"

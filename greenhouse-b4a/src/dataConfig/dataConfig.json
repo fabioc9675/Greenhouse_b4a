@@ -35,6 +35,42 @@
       "Desinfección del suelo de la huerta con la radiación solar."
     ]
   },
+  "Profile_BMP": {
+    "institution": "BMP",
+    "institutionName": "Colegio Julio Cesar Turbay Ayala",
+    "title": "Huerta 4.0, El Internet de la Huerta",
+    "city": "Soacha",
+    "partner": "OrganicMode - Renar - EkogroupH2O+ - GliaTech - UdeA",
+    "instLogo": "resources/logos/LogoBMP.png",
+    "instURL": "https://www.udea.edu.co",
+    "footNote": "Proyecto desarrollado por OrganicMode - Renar - EkogroupH2O+ - GliaTech - UdeA, apoyado por el LIF Community Grant y la Royal Academic of Engineering",
+    "background": "resources/BMP/Background.png",
+    "mainCard": "resources/BMP/MainFrame.jpg",
+    "photoBook": [
+      "resources/BMP/Foto_01.jpg",
+      "resources/BMP/Foto_02.jpg",
+      "resources/BMP/Foto_03.jpg",
+      "resources/BMP/Foto_04.jpg",
+      "resources/BMP/Foto_05.jpg",
+      "resources/BMP/Foto_02.jpg"
+    ],
+    "photoTitle": [
+      "Nuestra huerta Inteligente",
+      "Nuestros científicos de datos",
+      "Esta es nuestra motivación",
+      "La huerta 4.0",
+      "Grupo Green Garden",
+      "Uso consciente de la energía"
+    ],
+    "photoText": [
+      "Acercamos las capacidades de la industria 4.0 a los niños.",
+      "Fortalecemos en los niños su capacidad de investigación e innovación.",
+      "Fomentar el desarrollo tecnológico del país.",
+      "Autosostenibilidad alimentaria en la escuela y en el hogar.",
+      "Comunidad científica de niños con tecnologías 4.0.",
+      "Desinfección del suelo de la huerta con la radiación solar."
+    ]
+  },
   "Profile_FAA": {
     "institution": "FAA",
     "institutionName": "Fundación Amigos de la Alegría",

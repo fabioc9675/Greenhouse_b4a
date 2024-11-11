@@ -26,6 +26,11 @@ export default function App() {
             />
             <Route
               exact
+              path="/bmp"
+              element={<MainFrame dataConfig={dataConfig.Profile_BMP} />}
+            />
+            <Route
+              exact
               path="/faa"
               element={<MainFrame dataConfig={dataConfig.Profile_FAA} />}
             />
