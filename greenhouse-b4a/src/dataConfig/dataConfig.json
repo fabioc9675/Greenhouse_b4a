@@ -83,12 +83,12 @@
     "background": "resources/MUA/Background.png",
     "mainCard": "resources/MUA/MainFrame.jpg",
     "photoBook": [
-      "resources/MUA/Foto_02.jpg",
-      "resources/MUA/Foto_03.jpg",
-      "resources/MUA/Foto_04.jpg",
-      "resources/MUA/Foto_06.jpg",
-      "resources/MUA/Foto_07.jpg",
-      "resources/MUA/Foto_08.jpg"
+      "resources/MUA/Foto_02.jpeg",
+      "resources/MUA/Foto_03.jpeg",
+      "resources/MUA/Foto_04.jpeg",
+      "resources/MUA/Foto_06.jpeg",
+      "resources/MUA/Foto_07.jpeg",
+      "resources/MUA/Foto_08.jpeg"
     ],
     "photoTitle": [
       "Nuestra huerta Inteligente",
