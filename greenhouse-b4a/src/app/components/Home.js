@@ -27,6 +27,15 @@ export default function Home() {
         <div className="col s6">
           <div className="SimButton">
             <InstButton
+              buttonLabel="MUA"
+              pathUrl="/MUA"
+              imgDir="resources/Icons/IconMUA.png"
+              title="IE Manuel Uribe Angel"
+              textInfo="Proyecto Huerta 4.0 desarrollado por la I. E. Manuel Uribe Angel"
+            />
+          </div>
+          <div className="SimButton">
+            <InstButton
               buttonLabel="JFK"
               pathUrl="/jfk"
               imgDir="resources/Icons/IconJFK.jpg"
@@ -62,51 +71,52 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="col s6">{/* Video Frame */}
-        <div
-          className="title-container"
-          style={{
-            position: "fixed",
-            top: "70px",
-            right: "20px",
-            width: "48%",
-            height: "75px",
-            backgroundColor: "#FFFFFF",
-            padding: "2px",
-            borderRadius: "10px",
-            zIndex: 1000,
-          }}
-        >
-        <h4 style={{ color: "#000000", textAlign: "center" }}>
-            Huerta 4.0, Escuela John F. Kennedy
-          </h4>
+        <div className="col s6">
+          {/* Video Frame */}
+          <div
+            className="title-container"
+            style={{
+              position: "fixed",
+              top: "70px",
+              right: "20px",
+              width: "48%",
+              height: "75px",
+              backgroundColor: "#FFFFFF",
+              padding: "2px",
+              borderRadius: "10px",
+              zIndex: 1000,
+            }}
+          >
+            <h4 style={{ color: "#000000", textAlign: "center" }}>
+              Huerta 4.0, Escuela John F. Kennedy
+            </h4>
           </div>
 
-        <div
-          className="video-container"
-          style={{
-            position: "fixed",
-            top: "150px",
-            right: "20px",
-            width: "48%",
-            height: "50%",
-            backgroundColor: "#000",
-            padding: "15px",
-            borderRadius: "10px",
-            zIndex: 1000,
-            boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)",
-          }}
-        >
-          <iframe
-            width="100%"
-            height="225"
-            src="https://www.youtube.com/embed/PZdadrbPttA?autoplay=1&mute=1"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+          <div
+            className="video-container"
+            style={{
+              position: "fixed",
+              top: "150px",
+              right: "20px",
+              width: "48%",
+              height: "50%",
+              backgroundColor: "#000",
+              padding: "15px",
+              borderRadius: "10px",
+              zIndex: 1000,
+              boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            <iframe
+              width="100%"
+              height="225"
+              src="https://www.youtube.com/embed/PZdadrbPttA?autoplay=1&mute=1"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
 

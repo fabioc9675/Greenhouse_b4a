@@ -71,6 +71,42 @@
       "Desinfección del suelo de la huerta con la radiación solar."
     ]
   },
+  "Profile_MUA": {
+    "institution": "JFK",
+    "institutionName": "I. E. Manuel Uribe Ángel",
+    "title": "Huerta 4.0, El Internet de la Huerta",
+    "city": "Envigado",
+    "partner": "GICM - UdeA",
+    "instLogo": "resources/logos/MUAngel.png",
+    "instURL": "https://www.udea.edu.co",
+    "footNote": "Proyecto Huerta 4.0 desarrollado por la I. E. Manuel Uribe Angel y apoyado por el Grupo de Investigación en Instrumentación Científica y Microelectrónica - GICM y el Instituto de Física de la Universidad de Antioquia",
+    "background": "resources/MUA/Background.png",
+    "mainCard": "resources/MUA/MainFrame.jpg",
+    "photoBook": [
+      "resources/MUA/Foto_02.jpg",
+      "resources/MUA/Foto_03.jpg",
+      "resources/MUA/Foto_04.jpg",
+      "resources/MUA/Foto_06.jpg",
+      "resources/MUA/Foto_07.jpg",
+      "resources/MUA/Foto_08.jpg"
+    ],
+    "photoTitle": [
+      "Nuestra huerta Inteligente",
+      "Nuestros científicos de datos",
+      "Esta es nuestra motivación",
+      "La huerta 4.0",
+      "Grupo Green Garden",
+      "Uso consciente de la energía"
+    ],
+    "photoText": [
+      "Acercamos las capacidades de la industria 4.0 a los niños.",
+      "Fortalecemos en los niños su capacidad de investigación e innovación.",
+      "Fomentar el desarrollo tecnológico del país.",
+      "Autosostenibilidad alimentaria en la escuela y en el hogar.",
+      "Comunidad científica de niños con tecnologías 4.0.",
+      "Desinfección del suelo de la huerta con la radiación solar."
+    ]
+  },
   "Profile_FAA": {
     "institution": "FAA",
     "institutionName": "Fundación Amigos de la Alegría",
