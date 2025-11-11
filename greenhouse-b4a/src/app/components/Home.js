@@ -73,7 +73,7 @@ export default function Home() {
         </div>
         <div className="col s6">
           {/* Video Frame */}
-          <div
+          {/* <div
             className="title-container"
             style={{
               position: "fixed",
@@ -90,42 +90,62 @@ export default function Home() {
             <h4 style={{ color: "#000000", textAlign: "center" }}>
               Huerta 4.0, Escuela John F. Kennedy
             </h4>
-          </div>
+          </div> */}
 
-          <div
-            className="video-container"
-            style={{
-              position: "fixed",
-              top: "150px",
-              right: "20px",
-              width: "48%",
-              height: "50%",
-              backgroundColor: "#000",
-              padding: "15px",
-              borderRadius: "10px",
-              zIndex: 1000,
-              boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            <iframe
-              width="100%"
-              height="500"
-              src="https://www.instagram.com/reel/DPUbRbJjvNm/?igsh=Ym5lamRkc2xydzgw"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-            <iframe
-              width="100%"
-              height="225"
-              src="https://www.youtube.com/embed/PZdadrbPttA?autoplay=1&mute=1"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
+         <div
+  style={{
+    display: "flex",
+    flexDirection: "column", // 👈 fuerza la disposición vertical
+    alignItems: "center", // centra horizontalmente
+    gap: "20px", // espacio entre los videos
+    marginTop: "40px",
+  }}
+>
+  {/* Video Instagram */}
+  <div
+    style={{
+      width: "80%",
+      backgroundColor: "#000",
+      padding: "15px",
+      borderRadius: "10px",
+      boxShadow: "0px 0px 10px rgba(0,0,0,0.5)",
+      minWidth: "300px",
+    }}
+    >
+    <iframe
+      width="100%"
+      height="315"
+      src="https://www.youtube.com/embed/yMQNjpQqSx4?autoplay=0&mute=0"
+      title="Huerta 4.0 video"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+
+  {/* Video YouTube */}
+  <div
+    style={{
+      width: "80%",
+      backgroundColor: "#000",
+      padding: "15px",
+      borderRadius: "10px",
+      boxShadow: "0px 0px 10px rgba(0,0,0,0.5)",
+      minWidth: "300px",
+    }}
+  >
+    <iframe
+      width="100%"
+      height="315"
+      src="https://www.youtube.com/embed/PZdadrbPttA?autoplay=1&mute=0"
+      title="Huerta 4.0 video"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
         </div>
       </div>
 
