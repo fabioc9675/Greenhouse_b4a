@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { io } from "socket.io-client";
 import { Caption, DatePicker, Footer, Slide, Slider } from "react-materialize";
 import moment from "moment";
-import { FaGithubSquare, FaYoutubeSquare } from "react-icons/fa";
+import { FaGithubSquare, FaYoutubeSquare, FaInstagramSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 import DataTable from "./DataTable";
@@ -405,6 +405,13 @@ class MainFrame extends Component {
                 target="_blank"
               >
                 <FaYoutubeSquare size="3em" />
+              </a>
+              <a
+                className="grey-text text-lighten-4"
+                href="https://www.instagram.com/reel/DPUbRbJjvNm/?igsh=Ym5lamRkc2xydzgw"
+                target="_blank"
+              >
+                <FaInstagramSquare size="3em" />
               </a>
 
               <a
